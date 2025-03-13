@@ -9,7 +9,7 @@ namespace UnityEngine.Polybrush
     /// It will also handle the advs switch mode (on/off)
     /// </summary>
     [ExecuteInEditMode]
-    class PolybrushMesh : MonoBehaviour
+    public class PolybrushMesh : MonoBehaviour
     {
         internal enum Mode
         {
