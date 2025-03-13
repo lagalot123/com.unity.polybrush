@@ -11,7 +11,7 @@ namespace UnityEngine.Polybrush
     [ExecuteInEditMode]
     public class PolybrushMesh : MonoBehaviour
     {
-        internal enum Mode
+        public enum Mode
         {
             Mesh,
             AdditionalVertexStream
@@ -155,7 +155,7 @@ namespace UnityEngine.Polybrush
         [Obsolete()]
         internal static bool s_UseADVS { private get; set; }
 
-        internal Mode mode
+        public Mode mode
         {
             get { return m_Mode; }
             set { UpdateMode(value); }
